@@ -5,12 +5,10 @@ module.exports = {
     // More on: https://docs.layer0.co/guides/layer0_config#backends
     first: {
       domainOrIp: 'ros-layer0-nextjs-first-default.layer0-limelight.link',
-      hostHeader: 'ros-layer0-nextjs-first-default.layer0-limelight.link',
       disableCheckCert: true,
     },
     second: {
       domainOrIp: 'ros-layer0-nextjs-second-default.layer0-limelight.link',
-      hostHeader: 'ros-layer0-nextjs-second-default.layer0-limelight.link',
       disableCheckCert: true,
     },
     api: {
