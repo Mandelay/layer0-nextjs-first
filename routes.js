@@ -77,18 +77,18 @@ module.exports = new Router()
     }
   )
 
-  .destination(
-    'first', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
-    new Router()
-      // additional routing rules for the legacy experience go here
-      .fallback(({ proxy }) => proxy('first')),
-  )
-  .destination(
-    'second', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
-    new Router()
-      // additional routing rules for the new experience go here
-      .fallback(({ proxy }) => proxy('second')),
-  )
+//   .destination(
+//     'first', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
+//     new Router()
+//       // additional routing rules for the legacy experience go here
+//       .fallback(({ proxy }) => proxy('first')),
+//   )
+//   .destination(
+//     'second', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
+//     new Router()
+//       // additional routing rules for the new experience go here
+//       .fallback(({ proxy }) => proxy('second')),
+//   )
  
   // Pre-render the static home page
   // By pre-rendering, once the project is deployed
